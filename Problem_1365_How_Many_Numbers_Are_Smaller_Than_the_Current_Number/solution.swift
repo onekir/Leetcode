@@ -1,3 +1,6 @@
+// Time Complexity: O(nlogn) due to sorting
+// Space Complexity: O(n)
+
 class Solution {
     func smallerNumbersThanCurrent(_ nums: [Int]) -> [Int] {
         // sort nums with their original indices
